@@ -1,0 +1,49 @@
+/* Estilos de Cultura y Festivales */
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.festival {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.festival img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.festival:hover {
+  transform: scale(1.1);
+}
+
+.festival:hover img {
+  transform: scale(1.2);
+}
+
+#festival-info {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #555;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

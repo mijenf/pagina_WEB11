@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elecciones Generales</title>
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="stylesheet" href="../css/elecciones.css">
+
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="menu">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="elecciones.html">Elecciones Generales</a></li>
+        <li><a href="#">Economía</a></li>
+        <li><a href="cultura.html">Cultura</a></li>
+	<li><a href="fiesta.html">Fiestas</a></li>
+        <li><a href="#">Innovación</a></li>
+      </ul>
+    </nav>
+  </header>
+main>
+    <h1 class="shiny-text">Elecciones Generales 2024 🗳️</h1>
+
+    <section>
+      <h2>📊 Resultados Electorales</h2>
+      <table class="tabla-electoral">
+        <thead>
+          <tr>
+            <th>Partido</th>
+            <th>Porcentaje de Votos</th>
+            <th>Escaños</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>PP</td>
+            <td>30%</td>
+            <td>137</td>
+          </tr>
+          <tr>
+            <td>PSOE</td>
+            <td>28%</td>
+            <td>121</td>
+          </tr>
+          <tr>
+            <td>VOX</td>
+            <td>15%</td>
+            <td>52</td>
+          </tr>
+          <tr>
+            <td>PODEMOS</td>
+            <td>10%</td>
+            <td>33</td>
+          </tr>
+          <tr>
+            <td>ERC</td>
+            <td>5%</td>
+            <td>13</td>
+          </tr>
+          <tr>
+            <td>Otros</td>
+            <td>12%</td>
+            <td>26</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>📬 Formulario de Quejas y Sugerencias</h2>
+      <form id="quejas-sugerencias">
+        <label for="tipo">Tipo:</label>
+        <select id="tipo">
+          <option value="queja">Queja</option>
+          <option value="sugerencia">Sugerencia</option>
+        </select>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" placeholder="Escribe aquí tu queja o sugerencia..."></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>💡 Simulador de Voto Ficticio</h2>
+      <form id="simulador-voto">
+        <label for="partido">Elige tu partido:</label>
+        <select id="partido">
+          <option value="pp">PP</option>
+          <option value="psoe">PSOE</option>
+          <option value="vox">VOX</option>
+          <option value="podemos">PODEMOS</option>
+          <option value="erc">ERC</option>
+          <option value="otros">Otros</option>
+        </select>
+        <button type="submit">Simular Voto</button>
+      </form>
+      <p id="resultado-voto"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Gobierno de España</p>
+  </footer>
+</body>
+</html>
